@@ -3,7 +3,7 @@
 
 from fpioa_manager import *
 from Maix import I2S, GPIO
-import audio
+import audio,image
 
 #Speaker I2s Initialize
 fm.register(board_info.SPK_SD, fm.fpioa.GPIO0)
