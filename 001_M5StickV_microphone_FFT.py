@@ -5,6 +5,7 @@ import sys
 import lcd
 from fpioa_manager import *
 from Maix import I2S, GPIO, FFT
+import image
 
 lcd.init()
 lcd.rotation(2)
